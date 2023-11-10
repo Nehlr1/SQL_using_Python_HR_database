@@ -9,6 +9,9 @@ Clone this repository and install the requirements:
 ```
 git clone https://github.com/Nehlr1/SQL_using_Python_HR_database.git
 cd SQL_using_Python_HR_database
+py -m pip install --user virtualenv
+python -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
